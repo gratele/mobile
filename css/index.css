@@ -1,0 +1,171 @@
+/* .b_left {
+    border-left: 1px solid #dddddd;
+}
+
+.b_right {
+    border-right: 1px solid #dddddd;
+} */
+
+/* .b_bottom {
+    border-bottom: 1px solid #dddddd;
+} */
+
+.f_right {
+    float: right;
+}
+
+.f_left {
+    float: left;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.m_l10 {
+    margin-left: 10px;
+}
+
+.m_r10 {
+    margin-right: 10px;
+}
+
+/* 精灵图 */
+/* 2倍图 解决图标失真问题 */
+/* class="icon_xxx" class="red icon_xxx" */
+[class^="icon_"],
+[class*=" icon_"] {
+    background: url(../images/jd-sprites.png) no-repeat;
+    background-size: 200px 200px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style-type: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none
+}
+
+
+
+/* css经典的双飞翼布局 */
+.box {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box
+}
+
+.box1 {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    left: 0;
+    top: 0;
+    background: red;
+}
+
+.box2 {
+    width: 100%;
+    height: 100px;
+    background: #666;
+}
+
+.box3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100px;
+    background: blue
+}
+
+/* 清除所有默认的CSS样式 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
