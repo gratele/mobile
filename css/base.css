@@ -1,14 +1,14 @@
-/* .b_left {
+.b_left {
     border-left: 1px solid #dddddd;
 }
 
 .b_right {
     border-right: 1px solid #dddddd;
-} */
+}
 
-/* .b_bottom {
+.b_bottom {
     border-bottom: 1px solid #dddddd;
-} */
+}
 
 .f_right {
     float: right;
@@ -58,7 +58,8 @@ ul li {
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+    color: #333;
 }
 
 
